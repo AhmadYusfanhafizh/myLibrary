@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Name to Store in SQLite"
+        android:layout_margin="12sp"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/etName"
+        android:hint="Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store"
+        android:layout_margin="12sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get All Names From SQLite"
+        android:layout_margin="12sp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/tvNames"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="..."
+        android:layout_margin="12sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
